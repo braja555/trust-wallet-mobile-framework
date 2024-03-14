@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-13T19:32:35 GST" name="TrustWalletMobileAutomation" finished-at="2024-03-13T19:32:35 GST" duration-ms="233">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T19:32:35 GST" name="Test on Android" finished-at="2024-03-13T19:32:35 GST" duration-ms="233">
+      <class name="tests.CreateNewWalletWithManualBackUpTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.CreateNewWalletWithManualBackUpTest@4cc8eb05]" started-at="2024-03-13T19:32:35 GST" name="beforeSuite" finished-at="2024-03-13T19:32:35 GST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method abstract loadSystemProperties()V of abstract class org.openqa.selenium.remote.service.DriverService$Builder.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method abstract loadSystemProperties()V of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:495)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:90)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildDefaultService(AppiumDriverLocalService.java:86)
+at tests.BaseTest.getAppiumServerDefault(BaseTest.java:29)
+at tests.BaseTest.beforeSuite(BaseTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:368)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CreateNewWalletWithManualBackUpTest@4cc8eb05]" started-at="2024-03-13T19:32:35 GST" name="setUp" finished-at="2024-03-13T19:32:35 GST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_01_e2eCreateNewWallet()[pri:0, instance:tests.CreateNewWalletWithManualBackUpTest@4cc8eb05]" started-at="2024-03-13T19:32:35 GST" name="TC_01_e2eCreateNewWallet" description="Create Wallet: Validation for the whole process of creating a new wallet using Back Up Manually method." finished-at="2024-03-13T19:32:35 GST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method abstract loadSystemProperties()V of abstract class org.openqa.selenium.remote.service.DriverService$Builder.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method abstract loadSystemProperties()V of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:495)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:90)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildDefaultService(AppiumDriverLocalService.java:86)
+at tests.BaseTest.getAppiumServerDefault(BaseTest.java:29)
+at tests.BaseTest.beforeSuite(BaseTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:368)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_e2eCreateNewWallet -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CreateNewWalletWithManualBackUpTest@4cc8eb05]" started-at="2024-03-13T19:32:35 GST" name="tearDown" finished-at="2024-03-13T19:32:35 GST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.CreateNewWalletWithManualBackUpTest@4cc8eb05]" started-at="2024-03-13T19:32:40 GST" name="afterSuite" finished-at="2024-03-13T19:32:40 GST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.CreateNewWalletWithManualBackUpTest -->
+    </test> <!-- Test on Android -->
+  </suite> <!-- TrustWalletMobileAutomation -->
+</testng-results>
